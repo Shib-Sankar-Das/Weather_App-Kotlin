@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="140dp"
+    android:layout_marginHorizontal="4dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nameDayTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:text="-"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/hourTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:text="-"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginVertical="8dp"
+        android:src="@drawable/sunny"/>
+
+    <TextView
+        android:id="@+id/tempTxt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:text="-"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</LinearLayout>
